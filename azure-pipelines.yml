@@ -10,11 +10,11 @@ pool:
   vmImage: ubuntu-latest
 
 variables:
-  webAppName: '<Name of your webapp>'
-  serviceConnection: '<Name of your webARM Service connection>'
-  azureSubscriptionId: '<Azure subscriptionId>'
-  loadTestResource: '<Name of your load test resource>'
-  loadTestResourceGroup: '<Name of your load test resource group>'
+  webAppName: 'node-jgoj-web-app'
+  serviceConnection: 'mcaps-serv-conn'
+  azureSubscriptionId: '$(subscriptionId)'
+  loadTestResource: 'jgoj-load-test'
+  loadTestResourceGroup: 'load-test-demo-rg'
   location: 'EAST US'
 
 
