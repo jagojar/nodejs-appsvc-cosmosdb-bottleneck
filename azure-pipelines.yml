@@ -11,7 +11,7 @@ pool:
 
 variables:
   webAppName: 'node-jgoj-web-app'
-  serviceConnection: 'mcaps-serv-conn'
+  serviceConnection: 'LoadTest-Demo-Conn'
   azureSubscriptionId: '$(subscriptionId)'
   loadTestResource: 'jgoj-load-test'
   loadTestResourceGroup: 'load-test-demo-rg'
